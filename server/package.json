@@ -1,14 +1,18 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "ExpressJS based server app to expose apis as well as a react app.",
   "main": "index.js",
   "scripts": {
     "client-test": "cd ../client && npm run test",
     "build": "npm install && cd ../client && npm install && npm run build",
     "start": "node src/server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfscoprince/ReactAppFromExpressServer.git"
+  },
+  "keywords": ["ExpressJS", "ReactJS"],
   "author": "Prince Cheruvathur",
   "license": "MIT",
   "dependencies": {

@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "description": "A react application exposed from a NodeJS/ExpressJS server.",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
@@ -22,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],  
+  "keywords": ["ExpressJS", "ReactJS"],
+  "author": "Prince Cheruvathur",
+  "license": "MIT"
 }
