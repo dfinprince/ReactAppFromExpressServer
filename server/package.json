@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-test": "cd ../client && npm run test",
+    "build": "npm install && cd ../client && npm install && npm run build",
     "start": "node src/server.js"
   },
   "keywords": [],
