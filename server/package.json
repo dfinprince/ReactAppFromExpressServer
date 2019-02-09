@@ -12,7 +12,10 @@
     "type": "git",
     "url": "https://github.com/dfscoprince/ReactAppFromExpressServer.git"
   },
-  "keywords": ["ExpressJS", "ReactJS"],
+  "keywords": [
+    "ExpressJS",
+    "ReactJS"
+  ],
   "author": "Prince Cheruvathur",
   "license": "MIT",
   "dependencies": {
